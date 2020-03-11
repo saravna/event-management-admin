@@ -1,0 +1,32 @@
+.header {
+    padding: 30px;
+    background-color: lightgray;
+}
+
+.header button{
+    padding: 8px 14px;
+    margin: 0px 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(63, 63, 196);
+    color: lightgray;
+}
+
+.add-event {
+    width: 500px;
+    padding: 30px;
+    text-align: left;
+    margin-left: calc(50% - 265px);
+}
+
+.add-event input,.add-event textarea,.add-event button,.add-event select{
+    margin: 2px 0px 20px 0px;
+}
+
+.add-event input,.add-event textarea {
+    width: 100%;
+}
+
+.add-event label {
+    display: block;
+}
